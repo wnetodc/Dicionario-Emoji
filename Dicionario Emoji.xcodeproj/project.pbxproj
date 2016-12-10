@@ -12,6 +12,7 @@
 		13F77B2D1DFC6512003AF87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F77B2B1DFC6512003AF87C /* Main.storyboard */; };
 		13F77B2F1DFC6512003AF87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F77B2E1DFC6512003AF87C /* Assets.xcassets */; };
 		13F77B321DFC6512003AF87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F77B301DFC6512003AF87C /* LaunchScreen.storyboard */; };
+		13F77B3A1DFC9205003AF87C /* mostraEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F77B391DFC9205003AF87C /* mostraEmojiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13F77B2E1DFC6512003AF87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F77B311DFC6512003AF87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13F77B331DFC6512003AF87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F77B391DFC9205003AF87C /* mostraEmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mostraEmojiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				13F77B271DFC6512003AF87C /* AppDelegate.swift */,
 				13F77B291DFC6512003AF87C /* ViewController.swift */,
+				13F77B391DFC9205003AF87C /* mostraEmojiViewController.swift */,
 				13F77B2B1DFC6512003AF87C /* Main.storyboard */,
 				13F77B2E1DFC6512003AF87C /* Assets.xcassets */,
 				13F77B301DFC6512003AF87C /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				13F77B2A1DFC6512003AF87C /* ViewController.swift in Sources */,
 				13F77B281DFC6512003AF87C /* AppDelegate.swift in Sources */,
+				13F77B3A1DFC9205003AF87C /* mostraEmojiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130EB0E01E00CC85008E1E5E /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EB0DF1E00CC85008E1E5E /* Emoji.swift */; };
 		13F77B281DFC6512003AF87C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F77B271DFC6512003AF87C /* AppDelegate.swift */; };
 		13F77B2A1DFC6512003AF87C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F77B291DFC6512003AF87C /* ViewController.swift */; };
 		13F77B2D1DFC6512003AF87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F77B2B1DFC6512003AF87C /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		130EB0DF1E00CC85008E1E5E /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		13F77B241DFC6512003AF87C /* Dicionario Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicionario Emoji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F77B271DFC6512003AF87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F77B291DFC6512003AF87C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				13F77B271DFC6512003AF87C /* AppDelegate.swift */,
 				13F77B291DFC6512003AF87C /* ViewController.swift */,
+				130EB0DF1E00CC85008E1E5E /* Emoji.swift */,
 				13F77B391DFC9205003AF87C /* mostraEmojiViewController.swift */,
 				13F77B2B1DFC6512003AF87C /* Main.storyboard */,
 				13F77B2E1DFC6512003AF87C /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			files = (
 				13F77B2A1DFC6512003AF87C /* ViewController.swift in Sources */,
 				13F77B281DFC6512003AF87C /* AppDelegate.swift in Sources */,
+				130EB0E01E00CC85008E1E5E /* Emoji.swift in Sources */,
 				13F77B3A1DFC9205003AF87C /* mostraEmojiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				13F77B381DFC6512003AF87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

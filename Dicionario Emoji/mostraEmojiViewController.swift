@@ -10,10 +10,26 @@ import UIKit
 
 class mostraEmojiViewController: UIViewController {
 
+    var emoji = Emoji()
+    
+    @IBOutlet var labelEmoji: UILabel!
+    
+    @IBOutlet var labelDefinicao: UILabel!
+    
+    @IBOutlet var labelCategoria: UILabel!
+    
+    @IBOutlet var labelCriacao: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        labelEmoji.text = emoji.nome
+        labelDefinicao.text = emoji.definicao
+        labelCategoria.text = "Categoria: \(emoji.categoria)"
+        labelCriacao.text = "Criado: \(emoji.criacao)"
+
     }
 
     override func didReceiveMemoryWarning() {

@@ -58,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UY-gH-OyX">
-                                <rect key="frame" x="79" y="124" width="218" height="239"/>
+                                <rect key="frame" x="78.5" y="124" width="218" height="239"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="200"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -69,17 +69,40 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji Assustado!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avL-ZZ-2Lg">
+                                <rect key="frame" x="16" y="476" width="343" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji Assustado!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a22-f8-7Vp">
+                                <rect key="frame" x="16" y="517" width="343" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="uG7-0e-t5G" firstAttribute="centerX" secondItem="TJb-sD-CId" secondAttribute="centerX" id="MUH-k7-VWB"/>
+                            <constraint firstItem="a22-f8-7Vp" firstAttribute="centerX" secondItem="TJb-sD-CId" secondAttribute="centerX" id="1C5-jP-q24"/>
+                            <constraint firstItem="uG7-0e-t5G" firstAttribute="leading" secondItem="TJb-sD-CId" secondAttribute="leadingMargin" id="3Xc-CD-yby"/>
+                            <constraint firstItem="a22-f8-7Vp" firstAttribute="top" secondItem="avL-ZZ-2Lg" secondAttribute="bottom" constant="8" id="IEX-NY-rhK"/>
+                            <constraint firstItem="avL-ZZ-2Lg" firstAttribute="top" secondItem="uG7-0e-t5G" secondAttribute="bottom" constant="8" symbolic="YES" id="JN2-bz-Czz"/>
+                            <constraint firstItem="uG7-0e-t5G" firstAttribute="leading" secondItem="avL-ZZ-2Lg" secondAttribute="leading" id="Qot-D2-8qJ"/>
                             <constraint firstItem="6UY-gH-OyX" firstAttribute="centerX" secondItem="TJb-sD-CId" secondAttribute="centerX" id="Rkl-Jv-Y4p"/>
                             <constraint firstItem="6UY-gH-OyX" firstAttribute="top" secondItem="aEA-C0-I42" secondAttribute="bottom" constant="60" id="YgS-vw-TLO"/>
-                            <constraint firstItem="uG7-0e-t5G" firstAttribute="top" secondItem="6UY-gH-OyX" secondAttribute="bottom" constant="72" id="esh-KZ-8DX"/>
-                            <constraint firstItem="uG7-0e-t5G" firstAttribute="trailing" secondItem="TJb-sD-CId" secondAttribute="trailingMargin" id="uhW-zM-xQC"/>
-                            <constraint firstItem="uG7-0e-t5G" firstAttribute="leading" secondItem="TJb-sD-CId" secondAttribute="leadingMargin" id="wVd-sB-AMQ"/>
+                            <constraint firstItem="avL-ZZ-2Lg" firstAttribute="centerX" secondItem="TJb-sD-CId" secondAttribute="centerX" id="cTm-GY-rdC"/>
+                            <constraint firstItem="uG7-0e-t5G" firstAttribute="leading" secondItem="a22-f8-7Vp" secondAttribute="leading" id="dVb-KT-uMV"/>
+                            <constraint firstItem="uG7-0e-t5G" firstAttribute="trailing" secondItem="avL-ZZ-2Lg" secondAttribute="trailing" id="jVB-cH-Bgs"/>
+                            <constraint firstItem="uG7-0e-t5G" firstAttribute="top" secondItem="6UY-gH-OyX" secondAttribute="bottom" constant="72" id="wlR-9b-GHe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelCategoria" destination="avL-ZZ-2Lg" id="l3O-Jb-y4H"/>
+                        <outlet property="labelCriacao" destination="a22-f8-7Vp" id="8fh-Fz-clf"/>
+                        <outlet property="labelDefinicao" destination="uG7-0e-t5G" id="Lny-xn-gEJ"/>
+                        <outlet property="labelEmoji" destination="6UY-gH-OyX" id="fZP-cN-y1k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3W0-35-0NM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
